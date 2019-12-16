@@ -1,3 +1,79 @@
+body {
+  font-family: 'Airbnb Cereal App Book', sans-serif;
+  background: rgb(237, 239, 236);
+  color: rgb(100,100,100);
+  text-align: center;
+}
+
 h1 {
-  color: salmon;
+  font-family: 'Airbnb Cereal App Bold', sans-serif
+}
+
+p {
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.section-container {
+  margin: 20px auto;
+  color: red;
+}
+
+.destination-container {
+  display: inline-block;
+  width: 250px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin: 20px 10px;
+}
+
+.destination-container h2 {
+  font-size: 25px;
+  display: block;
+  color:  rgb(237, 239, 236);
+  text-align: center;
+  vertical-align: middle;
+  line-height: 300px;
+  font-weight: 400;
+  font-family: 'Airbnb Cereal App Medium';
+}
+
+#napa {
+  background-image: url(../img/napa.jpg);
+}
+
+#san-francisco {
+  background-image: url(../img/san-francisco.jpg);
+}
+
+#new-york {
+  background-image: url(../img/new-york.jpg);
+}
+
+#london {
+  background-image: url(../img/london.jpg);
+}
+
+#sonoma {
+  background-image: url(../img/sonoma.jpg);
+}
+
+#san-francisco2 {
+  background-image: url(../img/san-francisco-2.jpg)
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 20px
+}
+
+button {
+  margin: 20px;
+  background-color: white;
+  border: 1px black solid;
+  color: rgb(100, 100, 100);
+  padding: 10px;
+  width: 250px;
+  font-weight: 800;
 }
